@@ -6,7 +6,8 @@ An end-to-end deep learning system for detecting defects in solar panels using i
 
 ## 🚀 Demo
 
-* 🎥 Demo Video: https://github.com/user-attachments/assets/2a59311c-806b-4a34-bf30-6034d1e69329
+* 🎥 Demo Video:
+https://github.com/user-attachments/assets/2a59311c-806b-4a34-bf30-6034d1e69329
 
 ---
 
