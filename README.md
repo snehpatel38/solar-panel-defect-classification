@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/2a59311c-806b-4a34-bf30-6034d1e69329
+
 # 🌞 Solar Panel Defect Detection System
 
 An end-to-end deep learning system for detecting defects in solar panels using image classification. The project includes a trained MobileNetV2 model, optimized ONNX inference, a FastAPI backend, and a deployed frontend for real-time predictions.
@@ -6,7 +10,7 @@ An end-to-end deep learning system for detecting defects in solar panels using i
 
 ## 🚀 Demo
 
-* 🎥 Demo Video: [Watch Demo](https://github.com/snehpatel38/solar-panel-defect-classification/blob/main/demo/solar-defect-demo.mp4)
+* 🎥 Demo Video: [Watch Demo](https://github.com/user-attachments/assets/2a59311c-806b-4a34-bf30-6034d1e69329)
 
 ---
 
