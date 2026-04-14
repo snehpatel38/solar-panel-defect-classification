@@ -1,0 +1,74 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+.env
+.venv
+venv/
+env/
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# Jupyter / Kaggle
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Model files (optional)
+# ----------------------
+# Uncomment if you DON'T want to upload models
+# *.onnx
+# *.onnx.data
+# *.pth
+
+# ----------------------
+# Large files
+# ----------------------
+*.zip
+*.tar
+*.gz
+
+# ----------------------
+# Docker
+# ----------------------
+*.dockerignore
+Dockerfile*
+
+# ----------------------
+# Node / React (if frontend)
+# ----------------------
+node_modules/
+build/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ----------------------
+# Logs
+# ----------------------
+logs/
+*.log
+
+# ----------------------
+# Misc
+# ----------------------
+*.bak
+*.tmp
