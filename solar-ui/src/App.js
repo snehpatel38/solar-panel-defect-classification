@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 
 const DEFAULT_API_URL =
-  process.env.REACT_APP_API_URL || "https://solar-panel-defect-classification.onrender.com/predict";
+  process.env.REACT_APP_API_URL || "backend API URL not set. Update REACT_APP_API_URL in .env file.";
 const MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024;
 
 function App() {
@@ -131,7 +131,14 @@ function App() {
       });
     } catch (uploadError) {
       setResult(null);
-      setError(uploadError.message || "Unable to reach the prediction API.");
+
+      if (uploadError?.message === "Failed to fetch") {
+        setError(
+          "The API request was blocked or the backend is unavailable. Make sure the Render app has the CORS update deployed and the /predict endpoint is reachable."
+        );
+      } else {
+        setError(uploadError.message || "Unable to reach the prediction API.");
+      }
     } finally {
       setIsLoading(false);
     }
