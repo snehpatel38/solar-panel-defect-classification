@@ -1,10 +1,20 @@
-import onnxruntime as ort
-import numpy as np
-from fastapi import FastAPI, File, UploadFile
-from PIL import Image
 import io
 
+import numpy as np
+import onnxruntime as ort
+from fastapi import FastAPI, File, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
+from PIL import Image
+
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # ---- CONFIG ----
 MODEL_PATH = "solar_defect_model.onnx"
