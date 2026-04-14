@@ -6,7 +6,7 @@ An end-to-end deep learning system for detecting defects in solar panels using i
 
 ## 🚀 Demo
 
-* 🎥 Demo Video: [Watch Demo](demo/demo.mp4)
+* 🎥 Demo Video: [Watch Demo](https://github.com/snehpatel38/solar-panel-defect-classification/blob/main/demo/solar-defect-demo.mp4)
 
 ---
 
